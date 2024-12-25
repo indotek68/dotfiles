@@ -53,6 +53,9 @@ Include these sections if relevant. If they don’t apply, skip them.
 
 ---
 
+### LAST INSTRUCTION:
+- Convert the provided content into a polished, well-structured, and Markdown-formatted description that can be directly copied and pasted into the pull request input. Ensure the formatting uses appropriate headings, bullet points, and code blocks (if necessary) for clarity and professionalism. The result should be concise yet comprehensive, ready for use in a professional repository.
+
 # INPUT
 
 INPUT:

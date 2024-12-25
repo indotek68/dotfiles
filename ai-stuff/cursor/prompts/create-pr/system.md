@@ -84,7 +84,7 @@ Write a pull request description for a software change. Use **Markdown** formatt
 
 ## Additional Notes  
 - *Mention trade-offs, risks, or next steps here.*
-
+```markdown
 
 # ADDITIONAL INSTRUCTIONS
 - For GitHub's PR diff summary:

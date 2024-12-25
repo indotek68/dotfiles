@@ -53,43 +53,6 @@ Include these sections if relevant. If they don’t apply, skip them.
 
 ---
 
-## Example AI Prompt for PR Description
-
-Write a pull request description for a software change. Use **Markdown** formatting for the output and organize it using the structure below:
-
----
-
-### PR Description Template  
-
-```markdown
-## Overview  
-*Summarize the PR purpose and what it solves.*
-
-## Key Changes  
-- *List and explain the main changes here.*
-
-## API Integrations (if applicable)  
-- *Describe new or modified APIs here.*
-
-## Context & Hooks (if applicable)  
-- *Mention updates to state management here.*
-
-## Configuration Updates (if applicable)  
-- *List updates to configuration files, dependencies, or environments.*
-
-## Framework or Tool Updates (if applicable)  
-- *Mention specific changes to frameworks, libraries, or tools here.*
-
-## Enhancements to Existing Code  
-- *Describe improvements or bug fixes here.*
-
-## Testing Checklist  
-- *List test scenarios to verify functionality, including edge cases.*
-
-## Additional Notes  
-- *Mention trade-offs, risks, or next steps here.*
-```
-
 # INPUT
 
 INPUT:

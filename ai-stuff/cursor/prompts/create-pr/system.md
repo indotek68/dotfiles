@@ -10,7 +10,11 @@ Your task is to create a pull request description for the given code changes. Yo
 2. Identify the type of changes being made (e.g., new files, renamed files, modified files, deleted files).
 3. Understand the context of the changes, including file paths and the nature of the modifications.
 4. Draft a comprehensive description of the pull request based on the input.
-5. Create a **Markdown** formatted response with the following rules:
+5. Look for file renaming patterns (e.g., "File renamed without changes.")
+6. Identify new file additions (e.g., lines starting with "+")
+7. Recognize file deletions (e.g., lines starting with "-")
+8. Understand file modifications by analyzing the changes in content
+9. Create a **Markdown** formatted response with the following rules:
 
 # RULES
 
@@ -85,16 +89,6 @@ Write a pull request description for a software change. Use **Markdown** formatt
 ## Additional Notes  
 - *Mention trade-offs, risks, or next steps here.*
 ```
-
-# ADDITIONAL INSTRUCTIONS
-- For GitHub's PR diff summary:
-  * Look for file renaming patterns (e.g., "File renamed without changes.")
-  * Identify new file additions (e.g., lines starting with "+")
-  * Recognize file deletions (e.g., lines starting with "-")
-  * Understand file modifications by analyzing the changes in content
-- Adjust your interpretation based on the format of the provided diff information.
-- Ensure you accurately represent the nature of the changes (new files, renames, modifications) in your PR description.
-- Ensure you follow ALL these instructions when creating your output.
 
 # INPUT
 

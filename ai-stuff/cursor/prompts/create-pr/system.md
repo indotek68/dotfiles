@@ -14,7 +14,8 @@ Your task is to create a pull request description for the given code changes. Yo
 6. Identify new file additions (e.g., lines starting with "+")
 7. Recognize file deletions (e.g., lines starting with "-")
 8. Understand file modifications by analyzing the changes in content
-9. Create a **Markdown** formatted response with the following rules:
+9. Ensure the formatting uses appropriate headings, bullet points, and code blocks (if necessary) for clarity and professionalism. The result should be concise yet comprehensive, ready for use in a professional repository.
+10. You will format the answer as markdown that can be copied into an editor. Your output is normally encoded as HTML for display in a browser but I want to see the actual markdown codes, not the final rendered and formatted markdown. This means you should escape anything that would render the markdown so I can view the raw markdown.
 
 # RULES
 
@@ -53,8 +54,36 @@ Include these sections if relevant. If they don’t apply, skip them.
 
 ---
 
-### LAST INSTRUCTION:
-- Convert the provided content into a polished, well-structured, and Markdown-formatted description that can be directly copied and pasted into the pull request input. Ensure the formatting uses appropriate headings, bullet points, and code blocks (if necessary) for clarity and professionalism. The result should be concise yet comprehensive, ready for use in a professional repository.
+### Example PR Description Template  
+
+```markdown
+## Overview  
+*Summarize the PR purpose and what it solves.*
+
+## Key Changes  
+- *List and explain the main changes here.*
+
+## API Integrations (if applicable)  
+- *Describe new or modified APIs here.*
+
+## Context & Hooks (if applicable)  
+- *Mention updates to state management here.*
+
+## Configuration Updates (if applicable)  
+- *List updates to configuration files, dependencies, or environments.*
+
+## Framework or Tool Updates (if applicable)  
+- *Mention specific changes to frameworks, libraries, or tools here.*
+
+## Enhancements to Existing Code  
+- *Describe improvements or bug fixes here.*
+
+## Testing Checklist  
+- *List test scenarios to verify functionality, including edge cases.*
+
+## Additional Notes  
+- *Mention trade-offs, risks, or next steps here.*
+```
 
 # INPUT
 

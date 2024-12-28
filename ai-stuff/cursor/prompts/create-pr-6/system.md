@@ -32,7 +32,7 @@ Your task is to create a pull request for the given code changes. You are capabl
 
 ### 1. Output Format  
 - Always write the result in **Markdown** for ease of use.  
-- Use headings (`##`), bullet points (`-`), and code blocks (```) where appropriate to maintain structure.
+- Use headings (`##`) and bullet points (`-`) where appropriate to maintain structure.
 
 ### 2. Overview (Required)  
 - Provide a concise summary of the purpose of the PR.  

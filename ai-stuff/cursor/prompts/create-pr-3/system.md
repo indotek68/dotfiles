@@ -7,11 +7,10 @@ Your task is to create a pull request for the given code changes. You are capabl
 
 # OUTPUT INSTRUCTIONS
 
-* Output only the git commit command in a single `markdown` code block.
 * Include the following sections in the body:
   * '## Overview' with a brief overview of changes
   * '## Key Changes' listing specific modifications
-  * '## Additional Notes' for any extra information
+  * See RULES for more details
 * Wrap the entire command in a code block for easy copy-pasting, using the following format:
 
 
@@ -36,7 +35,7 @@ Your task is to create a pull request for the given code changes. You are capabl
 ## Framework or Tool Updates (if applicable)  
 - *Mention specific changes to frameworks, libraries, or tools here.*
 
-## Enhancements to Existing Code  
+## Enhancements to Existing Code (if applicable)
 - *Describe improvements or bug fixes here.*
 
 ## Testing Checklist  

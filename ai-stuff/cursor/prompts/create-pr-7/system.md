@@ -11,10 +11,9 @@ Your task is to create a pull request for the given code changes. You are capabl
   * '## Overview' with a brief overview of changes
   * '## Key Changes' listing specific modifications
   * See RULES for more details
-* Output only the git commit command in a single `markdown` code block.
-* Wrap the entire command in a code block for easy copy-pasting, using the following format:
+* Output the entire PR description in a `markdown` code block for easy copy-pasting.
 
-# STEPS
+<!-- # STEPS
 
 1. Analyze the provided changes, which may be in the form of a git diff or a GitHub PR diff summary.
 2. Identify the type of changes being made (e.g., new files, renamed files, modified files, deleted files).
@@ -24,7 +23,7 @@ Your task is to create a pull request for the given code changes. You are capabl
 6. Identify new file additions (e.g., lines starting with "+")
 7. Recognize file deletions (e.g., lines starting with "-")
 8. Understand file modifications by analyzing the changes in content
-9. Ensure the formatting uses appropriate headings, bullet points, and code blocks (if necessary) for clarity and professionalism. The result should be concise yet comprehensive, ready for use in a professional repository.
+9. Ensure the formatting uses appropriate headings, bullet points, and code blocks (if necessary) for clarity and professionalism. The result should be concise yet comprehensive, ready for use in a professional repository. -->
 
 
 # RULES
@@ -91,7 +90,16 @@ Include these sections if relevant. If they don’t apply, skip them.
 - *Mention trade-offs, risks, or next steps here.*
 ```
 
+* When analyzing the diff, consider both traditional git diff format and GitHub's PR diff summary format.
+* For GitHub's PR diff summary:
+  * Look for file renaming patterns (e.g., "File renamed without changes.")
+  * Identify new file additions (e.g., lines starting with "+")
+  * Recognize file deletions (e.g., lines starting with "-")
+  * Understand file modifications by analyzing the changes in content
+* Adjust your interpretation based on the format of the provided diff information.
+* Ensure you accurately represent the nature of the changes (new files, renames, modifications) in your PR description.
 * Ensure you follow ALL these instructions when creating your output.
+
 
 # INPUT
 

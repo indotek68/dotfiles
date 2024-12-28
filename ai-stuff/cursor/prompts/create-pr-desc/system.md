@@ -22,7 +22,8 @@ Your task is to create a pull request for the given code changes. You are capabl
 
 ### 2. Key Changes (Required)  
 - List all the significant changes introduced in the PR.  
-- Use bullet points to describe each change briefly but clearly.  
+- Use bullet points to describe each change briefly but clearly. 
+- Ensure new components are listed separately (not grouped with other changes) and each component is described in detail.
 - Group related changes together (e.g., new components, API changes, UI updates).  
 
 ### 3. Optional Sections  
